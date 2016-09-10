@@ -1,4 +1,4 @@
-//Lista USP - Questão 04
+//Questão 04
 
 
 public class Numeros {
