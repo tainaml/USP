@@ -1,3 +1,6 @@
+//Lista USP - Questão 04
+
+
 public class Numeros {
 	
 	
@@ -22,10 +25,14 @@ public class Numeros {
 }
 
 
+<<<<<<< HEAD
 
 
 
 
+=======
+//main
+>>>>>>> parent of c089801... correção
 
 
 public class Principal {
