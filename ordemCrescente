@@ -1,0 +1,32 @@
+import java.util.Scanner;
+
+
+public class Q09 {
+
+	public static void main(String[] args) {
+		
+		int n,i,j;
+		
+		
+		Scanner entrada = new Scanner(System.in);
+		System.out.println("Digite um número n : ");
+		n = entrada.nextInt();
+		
+		System.out.println("Digite um numero i");
+		i = entrada.nextInt();
+		
+		System.out.println("Digite um numero j");
+		j = entrada.nextInt();
+		
+		
+		
+		
+		
+		
+		
+		
+		
+
+	}
+
+}
