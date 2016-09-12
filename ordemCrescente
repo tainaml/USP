@@ -1,3 +1,4 @@
+import java.util.Arrays;
 import java.util.Scanner;
 
 
@@ -5,9 +6,10 @@ public class Q09 {
 
 	public static void main(String[] args) {
 		
-		int n,i,j;
+		int n,j,contador=0,contMultiplos=0;
+		double cont,i;
 		
-		
+		 
 		Scanner entrada = new Scanner(System.in);
 		System.out.println("Digite um número n : ");
 		n = entrada.nextInt();
@@ -18,13 +20,21 @@ public class Q09 {
 		System.out.println("Digite um numero j");
 		j = entrada.nextInt();
 		
+		while (contMultiplos < n) {
+			
+		      if (contador % i == 0 || contador % j ==0) {
+		    	  
+		    	  System.out.println(contador);
+				  contMultiplos = contMultiplos + 1;
+		}
+		   	
+			contador++;
 		
+			}
+				System.out.println("quantidade de multiplos:" + contMultiplos);
 		
-		
-		
-		
-		
-
+			
+			
 	}
-
 }
+		
