@@ -1,0 +1,38 @@
+import java.util.Scanner;
+
+
+public class Q10 {
+
+    
+    public static void main(String[] args) {
+        
+        
+         int i=1, n, x=0;
+         
+             
+     
+       Scanner input = new Scanner(System.in);
+       System.out.println("Digite um número: ");
+       n = input.nextInt();
+       
+          for (i=1; x < n ; i++) {
+              x = i*(i+1)*(i+2);
+          }
+           
+              if (x == n) {
+              
+                System.out.print("SIM!");
+            }else{
+                System.out.println("NÃO!");
+              }
+                 
+       }
+          
+          
+       
+       
+       
+  
+           
+           
+       }
